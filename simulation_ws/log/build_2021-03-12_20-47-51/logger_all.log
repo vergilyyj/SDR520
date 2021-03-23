@@ -1,0 +1,221 @@
+[0.888s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.888s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd24d923588>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd24d923588>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd24d923940>)
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.920s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/environment/HelloWorld/simulation_ws'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(bundle) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(bundle) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(bundle) ignored
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'ros'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extensions ['cmake', 'python']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'cmake'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'python'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extensions ['python_setup_py']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps) by extension 'python_setup_py'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extensions ['colcon_pkg']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/deps/turtlebot3-description-reduced-mesh) by extension 'ros'
+[0.946s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deps/turtlebot3-description-reduced-mesh' with type 'ros.catkin' and name 'turtlebot3_description_reduced_mesh'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_simulation) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_world_simulation' with type 'ros.catkin' and name 'hello_world_simulation'
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'cmake_target' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'hello_world_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.023s] DEBUG:colcon.colcon_core.verb:Building package 'hello_world_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation', 'merge_install': False, 'path': '/home/ubuntu/environment/HelloWorld/simulation_ws/src/hello_world_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'cmake_args' from command line to 'None'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'cmake_target' from command line to 'None'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'cmake_clean_cache' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'cmake_clean_first' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'cmake_force_configure' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'ament_cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'catkin_cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description_reduced_mesh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.041s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description_reduced_mesh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh', 'merge_install': False, 'path': '/home/ubuntu/environment/HelloWorld/simulation_ws/src/deps/turtlebot3-description-reduced-mesh', 'symlink_install': False, 'test_result_base': None}
+[1.045s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.075s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.075s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ubuntu/environment/HelloWorld/simulation_ws/src/hello_world_simulation' with build type 'catkin'
+[1.076s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/environment/HelloWorld/simulation_ws/src/hello_world_simulation'
+[1.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.093s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.103s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.107s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ubuntu/environment/HelloWorld/simulation_ws/src/deps/turtlebot3-description-reduced-mesh' with build type 'catkin'
+[1.108s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/environment/HelloWorld/simulation_ws/src/deps/turtlebot3-description-reduced-mesh'
+[1.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.131s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation -- -j2 -l2
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh -- -j2 -l2
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh -- -j2 -l2
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation -- -j2 -l2
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target tests -- -j2 -l2
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target tests -- -j2 -l2
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target tests -- -j2 -l2
+[1.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target tests -- -j2 -l2
+[1.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target install -- -j2 -l2
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target install -- -j2 -l2
+[1.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target install -- -j2 -l2
+[1.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target install -- -j2 -l2
+[1.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description_reduced_mesh', 'ros_package_path')
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/ros_package_path.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/ros_package_path.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/ros_package_path.sh'
+[1.953s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/lib/python2.7/dist-packages'
+[1.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description_reduced_mesh', 'pkg_config_path')
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config_path.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config_path.dsv'
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config_path.sh'
+[1.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description_reduced_mesh', 'pkg_config_path_multiarch')
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config_path_multiarch.ps1'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config_path_multiarch.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config_path_multiarch.sh'
+[2.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description_reduced_mesh)
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh' for CMake module files
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh' for CMake config files
+[2.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description_reduced_mesh', 'cmake_prefix_path')
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/cmake_prefix_path.ps1'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/cmake_prefix_path.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/cmake_prefix_path.sh'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/lib'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/bin'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig/turtlebot3_description_reduced_mesh.pc'
+[2.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description_reduced_mesh', 'pkg_config')
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config.dsv'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/hook/pkg_config.sh'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/lib/python3.6/site-packages'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.ps1'
+[2.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.sh'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.bash'
+[2.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.zsh'
+[2.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/colcon-core/packages/turtlebot3_description_reduced_mesh)
+[2.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_simulation', 'ros_package_path')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/ros_package_path.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/ros_package_path.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/ros_package_path.sh'
+[2.085s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/lib/python2.7/dist-packages'
+[2.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_simulation', 'pkg_config_path')
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config_path.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config_path.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config_path.sh'
+[2.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_simulation', 'pkg_config_path_multiarch')
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config_path_multiarch.ps1'
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config_path_multiarch.dsv'
+[2.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config_path_multiarch.sh'
+[2.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_world_simulation)
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation' for CMake module files
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation' for CMake config files
+[2.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_simulation', 'cmake_prefix_path')
+[2.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/cmake_prefix_path.ps1'
+[2.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/cmake_prefix_path.dsv'
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/cmake_prefix_path.sh'
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/lib'
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/bin'
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/lib/pkgconfig/hello_world_simulation.pc'
+[2.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_simulation', 'pkg_config')
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config.ps1'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config.dsv'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/hook/pkg_config.sh'
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/lib/python3.6/site-packages'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/package.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/package.dsv'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/package.sh'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/package.bash'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/package.zsh'
+[2.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/colcon-core/packages/hello_world_simulation)
+[2.188s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.191s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.209s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.209s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[2.209s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/local_setup.ps1'
+[2.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/environment/HelloWorld/simulation_ws/install/_local_setup_util_ps1.py'
+[2.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/setup.ps1'
+[2.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/local_setup.sh'
+[2.236s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/environment/HelloWorld/simulation_ws/install/_local_setup_util_sh.py'
+[2.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/setup.sh'
+[2.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/local_setup.bash'
+[2.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/setup.bash'
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/local_setup.zsh'
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/HelloWorld/simulation_ws/install/setup.zsh'

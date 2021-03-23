@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation/devel
+
+Name: hello_world_simulation
+Description: Description of hello_world_simulation
+Version: 1.4.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros

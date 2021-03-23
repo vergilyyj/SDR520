@@ -1,0 +1,53 @@
+[0.056s] Invoking command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot': CMAKE_PREFIX_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot -- -j2 -l2
+[0.142s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/devel
+[0.142s] -- Using CMAKE_PREFIX_PATH: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh;/opt/ros/melodic
+[0.143s] -- This workspace overlays: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh;/opt/ros/melodic
+[0.188s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.188s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.189s] -- Using Debian Python package layout
+[0.190s] -- Using empy: /usr/bin/empy
+[0.613s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.613s] -- Call enable_testing()
+[0.616s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/test_results
+[0.660s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.661s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.704s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.726s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.832s] -- catkin 0.7.29
+[0.833s] -- BUILD_SHARED_LIBS is on
+[1.418s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.831s] -- Configuring done
+[3.037s] -- Generating done
+[3.065s] -- Build files have been written to: /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot
+[3.123s] Built target hello_world_robot_xacro_generated_to_devel_space_
+[3.144s] Invoked command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot -- -j2 -l2
+[3.225s] Invoking command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot': CMAKE_PREFIX_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot --target tests -- -j2 -l2
+[3.338s] Built target tests
+[3.359s] Invoked command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot --target tests -- -j2 -l2
+[3.446s] Invoking command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot': CMAKE_PREFIX_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot --target install -- -j2 -l2
+[3.533s] Built target hello_world_robot_xacro_generated_to_devel_space_
+[3.565s] [36mInstall the project...[0m
+[3.580s] -- Install configuration: ""
+[3.582s] + cd /home/ubuntu/environment/HelloWorld/robot_ws/src/hello_world_robot
+[3.582s] + mkdir -p /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages
+[3.584s] + /usr/bin/env PYTHONPATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages:/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot /usr/bin/python2 /home/ubuntu/environment/HelloWorld/robot_ws/src/hello_world_robot/setup.py build --build-base /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot install --root=/ --install-layout=deb --prefix=/home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot --install-scripts=/home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/bin
+[3.653s] running build
+[3.654s] running build_py
+[3.655s] running install
+[3.656s] running install_lib
+[3.657s] running install_egg_info
+[3.658s] Removing /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot-1.4.0.egg-info
+[3.658s] Writing /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot-1.4.0.egg-info
+[3.664s] -- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/pkgconfig/hello_world_robot.pc
+[3.665s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig.cmake
+[3.665s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig-version.cmake
+[3.665s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/package.xml
+[3.666s] -- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/hello_world_robot/rotate
+[3.666s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch
+[3.667s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/deploy_rotate.launch
+[3.667s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/rotate.launch
+[3.667s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/deploymentScripts
+[3.676s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/deploymentScripts/post_launch_file.sh
+[3.677s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/deploymentScripts/pre_launch_file.sh
+[3.677s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/rviz/turtlebot3_model.rviz
+[3.678s] Invoked command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot --target install -- -j2 -l2

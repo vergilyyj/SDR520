@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation/devel/setup.sh

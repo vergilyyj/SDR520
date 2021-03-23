@@ -1,0 +1,22 @@
+[0.067s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation -- -j2 -l2
+[0.171s] Built target hello_world_simulation_xacro_generated_to_devel_space_
+[0.188s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation -- -j2 -l2
+[0.317s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target tests -- -j2 -l2
+[0.441s] Built target tests
+[0.463s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target tests -- -j2 -l2
+[0.594s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target install -- -j2 -l2
+[0.692s] Built target hello_world_simulation_xacro_generated_to_devel_space_
+[0.735s] [36mInstall the project...[0m
+[0.751s] -- Install configuration: ""
+[0.751s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/lib/pkgconfig/hello_world_simulation.pc
+[0.752s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/cmake/hello_world_simulationConfig.cmake
+[0.752s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/cmake/hello_world_simulationConfig-version.cmake
+[0.752s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/package.xml
+[0.752s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch
+[0.753s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch/view_empty_world.launch
+[0.753s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch/empty_world.launch
+[0.753s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch/worldforge_world.launch
+[0.753s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/worlds
+[0.753s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/worlds/empty.world
+[0.754s] -- Up-to-date: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/rviz/turtlebot3_model.rviz
+[0.757s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target install -- -j2 -l2

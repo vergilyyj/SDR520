@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/devel/setup.sh
