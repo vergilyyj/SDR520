@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<world name="generation_p2qgt3wby475_world_1">
+		<include>
+			<uri>model://sun</uri>
+		</include>
+		<!--Bedroom-->
+		<!--Structure models-->
+		<model name="wall_0">
+			<include>
+				<uri>model://generation_p2qgt3wby475_world_1/wall_0</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_1">
+			<include>
+				<uri>model://generation_p2qgt3wby475_world_1/wall_1</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_2">
+			<include>
+				<uri>model://generation_p2qgt3wby475_world_1/wall_2</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_3">
+			<include>
+				<uri>model://generation_p2qgt3wby475_world_1/wall_3</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="floor_Bedroom">
+			<include>
+				<uri>model://generation_p2qgt3wby475_world_1/floor_Bedroom</uri>
+				<static>true</static>
+			</include>
+		</model>
+	</world>
+</sdf>
